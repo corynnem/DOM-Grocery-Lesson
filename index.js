@@ -114,6 +114,7 @@ function displayItems(){
         card.style.background = "lavender" 
         card.style.width = "25vw" 
         card.style.textAlign = 'center'
+        card.style.backgroundColor = '#ff90b3'
 
         
         // Adding our grocery data as innerText
