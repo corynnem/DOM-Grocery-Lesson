@@ -111,7 +111,6 @@ function displayItems(){
         cardWrapper.style.flexWrap = 'wrap'
         cardWrapper.style.padding = "10px, 10px, 10px, 10px" 
         card.style.marginTop = '20vh'
-        card.style.background = "lavender" 
         card.style.width = "25vw" 
         card.style.textAlign = 'center'
         card.style.backgroundColor = '#ff90b3'
@@ -129,10 +128,10 @@ function displayItems(){
         // Appending all created elements to the cardWrapper div on index.html
         cardWrapper.appendChild(card)
         card.appendChild(cardTitle)
-        cardTitle.appendChild(cardPrice)
-        cardPrice.appendChild(cardQuantity)
-        cardQuantity.appendChild(lineBreak)
-        lineBreak.appendChild(inStock)
+        card.appendChild(cardPrice)
+        card.appendChild(cardQuantity)
+        card.appendChild(lineBreak)
+        card.appendChild(inStock)
     }
 }
 
